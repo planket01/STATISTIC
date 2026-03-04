@@ -76,7 +76,8 @@
 
 ---
 # 2️⃣ 학습 인증란
-<!-- 이 글을 지우고, 여기에 학습한 것을 인증해주세요.-->
+<img width="2870" height="1552" alt="image" src="https://github.com/user-attachments/assets/c8655da1-99bd-4fc5-9ecf-2646fd5ea38a" />
+
 
 
 <br>
