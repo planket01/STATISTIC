@@ -68,14 +68,30 @@
 * GROUP BY, HAVING, ORDER BY, 집계함수(SUM/COUNT 등)을 활용하는 방법을 설명할 수 있다.
 * having과 where의 차이에 대해서 설명할 수 있다.
 ~~~
+-집계: 그룹화+계산 -> GROUP BY 사용(중복값은 저절로 처리된다.) 주로 평균과 수를 많이 집계한다.
+-정렬(orderby)을 통해 오름/내림차순 등으로 순서를 지정할 수도 있다.
+-조건을 달아 그 조건에 맞는 것만 표시할 수도 있다. -> 집계후 조건은 having을 사용
+SELECT 집계할 컬럼
+집계 함수: AVG, COUNT, COUNTIF, MAX, MIN, SUM 등
+FROM table.~~
+GROUP BY 집계할 컬럼
+-중복 처리는 GROUP BY 말고 distinct로도 가능한데, 이는 COUNT(DISTINCT 컬럼) 형식으로 보통 사용한다.
+HAVING: GROUP BY이후 조건을 설정할 때 사용한다. <-> WHERE은 기존 테이블에서 사용하는 것
+<img width="752" height="550" alt="image" src="https://github.com/user-attachments/assets/9aa07055-d7a9-4741-b15c-6cb926e60b70" />
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+-제일 마지막에 ORDER BY DESC(내림) OSC(오름:디폴)을 통해 정렬 가능
+-LIMIT: 결과 출력 최대 제한 가능 <- 쿼리 제일 마지막에 작성
+
+
 
 
 
 # 2️⃣ 학습 인증란
 
-<!-- 이 글을 지우고, 여기에 학습한 것을 인증해주세요.-->
+<img width="822" height="648" alt="image" src="https://github.com/user-attachments/assets/df1ceb16-6f7c-4d6d-af4f-fb534a276c41" />
+<img width="660" height="258" alt="image" src="https://github.com/user-attachments/assets/4f4a5234-773a-4a37-ac8e-da6ab2d98af1" />
+<img width="924" height="444" alt="image" src="https://github.com/user-attachments/assets/d5009ab1-2920-46f2-a2f9-2773217c3e0b" />
+
 
 
 
@@ -122,7 +138,12 @@ GROUP BY type;
 
 
 ~~~
-여기에 답을 작성해주세요.
+SELECT type, AVG(attack) AS avg_attack
+FROM pokemon
+GROUP BY type
+HAVING AVG(avg_attack) >= 60
+
+우선 GROUP BY 다음에 조건문을 달아야 하고, GROUP BY 이후의 조건은 WHERE이 아니라 HAVING을 써야하고, 이때 새로 정의한 변수명안 avg_attack을 사용해야 한다.
 ~~~
 
 
