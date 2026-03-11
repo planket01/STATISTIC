@@ -43,17 +43,24 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 -JSON(JavaScript Object Notation): {"~~": "~"} 형식이다.
 -JSON을 데이터프레임 형식으로도 바꿀 수 있다. 이외 다양한 것들은 실습 참고
 -XML(extensible Markup Language): 시작과 종결 태그를 통해 이해하기 쉬운 구조로 이루어져있다.
--
+-부모.자식 처럼 계층적인 구조라는 특징이 있다.
+-다만 자식 엘리먼트 순서는 고정된 것이 아니기 때문에 book 객체의 findtextO 메서드를 사용해야 한다.
+-여러 자신 엘리먼트에서 동일 이름인 것을 찾을 때는 findall,for문을 사용한다.
 
 ## 02.웹 스크래핑 사용하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+-API로 제공하지 않는 데이터를 수집할 때 유용하다.
+-gdown 패키지를 사용해 코랩으로 다운할 수 있다. -> 이후에는 데이터프레임을 다루는 것과 동일하다.
+-loc함수를 사용해 데이터를 추출 할 때, :을 이용할 수 있지만, 끝지점도 포함된다는 것에 유의하자.
+-뷰티플수프: HTML 안에 있는 내용을 찾아주는 기능을 한다.
 
 
 # 2️⃣ 수행 인증
 
 <img width="528" height="328" alt="image" src="https://github.com/user-attachments/assets/02f37bb7-1ee9-4251-99d6-9c470a8c2f7f" />
+<img width="2010" height="1186" alt="image" src="https://github.com/user-attachments/assets/f5aa483b-0776-4ed0-b0c8-1c8839f6caa1" />
 <img width="2488" height="1176" alt="image" src="https://github.com/user-attachments/assets/c415e924-dbdd-424c-bba6-fd04b7558741" />
+<img width="1774" height="1132" alt="image" src="https://github.com/user-attachments/assets/cfdb4228-a1a7-4736-bef1-440b627a2592" />
 
 
 
@@ -75,7 +82,8 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 
 ```
-여기에 선택한 답과 그 이유를 간단히 서술해주세요!
+2️⃣ Scrapy
+나머지 선택지들은 머신러닝, EDA 등에 사용되는 패키지고, Scrapy는 requests와 뷰티플스프를 합친것과 같다고 책에서 소개했다.(125p)
 ```
 
 
