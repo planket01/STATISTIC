@@ -38,7 +38,12 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. API 사용하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+-통신규약인 HTTP: 웹브라우저(내 컴퓨터)에서 HTTP을 통해 데이터를 요청하면, 웹서버(네이버,구글 등)는 HTML을 웹브라우저에게 전달한다.
+-이때 받는 데이터는 CSV, JSON, XML에 등 HTML이 아닌 형식으로 온다.
+-JSON(JavaScript Object Notation): {"~~": "~"} 형식이다.
+-JSON을 데이터프레임 형식으로도 바꿀 수 있다. 이외 다양한 것들은 실습 참고
+-XML(extensible Markup Language): 시작과 종결 태그를 통해 이해하기 쉬운 구조로 이루어져있다.
+-
 
 ## 02.웹 스크래핑 사용하기
 
@@ -47,7 +52,9 @@ https://www.youtube.com/watch?v=Il6L8OtNFpc&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 # 2️⃣ 수행 인증
 
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+<img width="528" height="328" alt="image" src="https://github.com/user-attachments/assets/02f37bb7-1ee9-4251-99d6-9c470a8c2f7f" />
+<img width="2488" height="1176" alt="image" src="https://github.com/user-attachments/assets/c415e924-dbdd-424c-bba6-fd04b7558741" />
+
 
 
 
