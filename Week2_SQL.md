@@ -100,7 +100,7 @@ WHERE type = Electric;
 
 
 ~~~
-# 수정된 진아의 SQL Query문 
+# 진아의 SQL Query 수정문 
 SELECT name, type   <- .이 아니라 ,를 통해 병렬해야 한다.
 FROM pokemon   <- ;는 쿼리를 끝내기 때문에 중간에 있으면 안된다.
 WHERE type = 'Electric';   <- Electric이라는 단어를 찾는 것이므로 즉, 컬럼이 아니므로 ''를 이용해야 한다.
