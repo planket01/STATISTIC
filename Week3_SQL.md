@@ -75,11 +75,34 @@
 - <img width="664" height="780" alt="image" src="https://github.com/user-attachments/assets/8afa7f26-a3ff-4c6d-bd35-e7b189ed228d" />
 - 다른점: is_legendary를 썼느냐 차이가 있는데 이것이 있는 것이 뭐가 어떤건지 보기에 좋은 것 같다.
 - 5번 문제
-- 
-
-
-
-
+- <img width="672" height="298" alt="image" src="https://github.com/user-attachments/assets/0bf458ed-dea9-4544-9bc2-b3c5916e92ab" />
+- 집계 후 조건인 HAVING을 앞에 정리한 것을 토대로 기억해냈고, 덕분에 한 번에 맞출 수 있었다.
+- 6번 문제
+- <img width="576" height="228" alt="image" src="https://github.com/user-attachments/assets/00c27907-5f73-4218-b292-aaaf8f45fe3a" />
+- 쉬운 문제였다.
+- 7번 문제
+- <img width="712" height="224" alt="image" src="https://github.com/user-attachments/assets/658f45e2-f7fc-4cf7-9940-8da46e032c92" />
+- WHERE name IN ('Iris', 'Whitney', 'Cynthia')이라는 IN 조건을 통해 OR등 반복하는 작업을 줄인다는 것을 배웠다.
+- 9번 문제
+- <img width="574" height="224" alt="image" src="https://github.com/user-attachments/assets/f00974fa-7936-4005-815c-1e95e23e6dbe" />
+- 쉬운 문제다.
+- 11번 문제
+- <img width="614" height="318" alt="image" src="https://github.com/user-attachments/assets/040a349c-1164-4c38-8bcf-25a86191c9de" />
+- 처음에는 MAX를 쓰는줄 알고 계속 오류 떠서 풀이를 보니 ORDERED BY와 LIMIT을 써야한다는 것을 알게됐다.
+- 12번 문제
+- <img width="644" height="332" alt="image" src="https://github.com/user-attachments/assets/2180d6db-f159-40a0-aab4-210ce799aa9a" />
+- 11번 문제의 NOT NULL을 NULL로만 바꾸면 된다.
+- 13번 문제
+- <img width="626" height="238" alt="image" src="https://github.com/user-attachments/assets/1074b3b4-6c52-4700-8a9c-6d4118c1f59e" />
+- LIKE라는 것을 처음 봤고, 단어를 찾는데 유용한 기능을 가진다.
+- 14번 문제
+- <img width="652" height="222" alt="image" src="https://github.com/user-attachments/assets/a3239b01-9b04-4ea1-b7b7-e82f602ced33" />
+- 쉽다.
+- 17번 문제
+- <img width="724" height="226" alt="image" src="https://github.com/user-attachments/assets/c689e8b5-16af-43cf-9991-84e4766d801e" />
+- 매우 어렵다.
+- <img width="1858" height="916" alt="image" src="https://github.com/user-attachments/assets/867513ff-1c61-45fc-bfad-93db44354923" />
+- 정리하면 위와 같은 사진과 같다.
 
 
 ## 2-8. 새로운 집계함수
@@ -90,7 +113,7 @@
 * SELECT, FROM, WHERE을 활용하는 방법을 설명할 수 있다. 
 ~~~
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- GROUP BY ALL이라는 것이 추가됐는데, 이는 기존에 GROUP BY에서 일일이 손으로 썼다면, 이는 자동 판단되어 정리되는 장점이 있다.
 
 
 
