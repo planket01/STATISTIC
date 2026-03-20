@@ -143,8 +143,9 @@
 <!-- 이어질 주차에서 생산성 도구를 활용한 실습이 있습니다.강의에 맞게 제작하여 화면을 캡쳐하여 이 주석을 지우고 올려주세요. -->
 - 보통 탬플릿을 활용하기 불편하기에 사용하지 않는 경우가 많다. -> 습관이 형성되지 않음
 - 이를 해결할 수 있는 것이 생산형 AI를 사용하는 것이다.
-- <img width="886" height="708" alt="image" src="https://github.com/user-attachments/assets/5b7ffe6b-3f23-4c57-807e-d0b49831cef0" />
-- <img width="1700" height="902" alt="image" src="https://github.com/user-attachments/assets/903bc10d-bd6c-44d5-830a-f2e7692afbaa" />
+<img width="1396" height="606" alt="image" src="https://github.com/user-attachments/assets/798eb76c-8e60-42df-83dd-ecbd609996a4" />
+<img width="1050" height="376" alt="image" src="https://github.com/user-attachments/assets/b8f43d5b-f5e5-4a92-88f5-f14c7fca2ec1" />
+
 
 
 
@@ -156,7 +157,8 @@
 # 2️⃣ 학습 인증란
 
 <img width="854" height="742" alt="image" src="https://github.com/user-attachments/assets/9181029f-0101-4a16-b734-4c41fb9bbb5f" />
-<img width="1720" height="1314" alt="image" src="https://github.com/user-attachments/assets/1bb0e272-9d1c-49b4-a3c4-0003e8c40bff" />
+<img width="1946" height="1458" alt="image" src="https://github.com/user-attachments/assets/10f8c00d-9071-4fcf-a2cf-da319b92d3e4" />
+
 
 
 
