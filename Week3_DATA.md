@@ -38,16 +38,37 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. 불필요한 데이터 삭제하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- loc: 필요한 행/렬을 지정해서 그것들로만 이루어진 데이터프레임을 만들 수 있다.
+- 원소별 비교를 통해 리스트와 비슷한 형식인 넘파이 불리언 형식을 출력할 수 있다.
+- df.drop('제거 원하는 열', axis=l) axis=0(행)/l(열):을 제거
+- drop에서 제거 원하는 열이 여러 개일 경우: df.drop([~,~,~~~~], axis=l)
+- df.drop('제거 원하는 열', axis=l, inplace=True)를 하면, 해당 변수가 원하는 열이 없어진 꼴로 수정 후 저장된다.
+- 결측치가 있는 열을 제거하고 싶으면 .dropna()를 하면 된다.
+- 중복된 열을 제거: duplicated(subset=[~])이용
+- 이를 이용해서 중복을 stack 쌓이는 것으로 인식해 groupby 함수를 통해 몇 개가 중복됐는지 알 수 있다.
 
 ## 02. 잘못된 데이터 수정하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- 누락된 값의 개수를 확인하고, NaN이 아닌, string 타입으로 결측치임을 채워넣는다.(코딩 오류 방지)
+- replace를 통해 한 번에 결측치를 원하는 것으로 바꿀 수 있다.
+- 값을 수정하는 것은 일이 많기 때문에 정규식을 이용해 간단하게 진행하는 것을 배운다.
+- 아래와 같은 매서드를 통해 정규식을 통해 다양한 상황을 처리 가능하다.
+- <img width="1022" height="316" alt="image" src="https://github.com/user-attachments/assets/9191827f-07c9-4c72-86c0-b8ed7868e338" />
+-
+
 
 
 # 2️⃣ 수행 인증
 
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+<img width="1324" height="926" alt="image" src="https://github.com/user-attachments/assets/d1e8b2a3-23b7-4788-803b-9eec45ffdaa7" />
+<img width="1724" height="836" alt="image" src="https://github.com/user-attachments/assets/cd891664-2134-48c6-af90-477726114ced" />
+<img width="1330" height="856" alt="image" src="https://github.com/user-attachments/assets/bb629095-d8b9-46da-8e39-edaa77412317" />
+<img width="1074" height="1044" alt="image" src="https://github.com/user-attachments/assets/aa29f030-4f6c-4fa3-8367-54cc868e3d0a" />
+<img width="1214" height="952" alt="image" src="https://github.com/user-attachments/assets/c735039d-a79a-4419-baed-3fbee56fdf98" />
+<img width="1742" height="846" alt="image" src="https://github.com/user-attachments/assets/f8806a2b-1f1b-43dc-b79d-cb2b9edb260c" />
+<img width="1072" height="606" alt="image" src="https://github.com/user-attachments/assets/cc5e601d-4bb0-4193-9951-f671cb62ec93" />
+
+
 <!-- 이번 주차에는 API를 발급받는 과정도 포함하여 첨부해주세요.-->
 
 
