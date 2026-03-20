@@ -60,8 +60,25 @@
 ✅ 학습 목표 :
 * 연습문제(7문제 이상) 푼 것들 정리하기
 ~~~
+- 1번 문제
+<img width="656" height="850" alt="image" src="https://github.com/user-attachments/assets/ecc99103-4744-403b-b4e3-c4501d1c8f3f" />
+- IS NULL이라는 것을 새로 배웠다.
+- 2번 문제
+<img width="888" height="1018" alt="image" src="https://github.com/user-attachments/assets/575c6375-ec42-4f21-ad25-f128a839819b" />
+- 여기서 계속 오류가 났었는데, 집계하는 기준이 있다면 그 기준을 GROUP BY 해줘야 한다는 것을 알 수 있었다.
+- 이전에 배웠지만 까먹었던 내림차순도 기억할 수 있어 좋았다.
+- 3번 문제
+<img width="876" height="784" alt="image" src="https://github.com/user-attachments/assets/9b6e09f4-156c-4709-94a8-1fd9cf31d778" />
+- 2번 문제에서 type2가 없어야 한다는 조건만 빼면 되기에 쉽게 맞췄다.
+- DISTINCT 라는 것을 알려줬는데, 이 자료는 다 중복이 없었기 때문에 결과가 같았지만, 만약 같은 자료가 섞여있다면 이를 써봐야 할 것이다.
+- 4번 문제
+<img width="664" height="780" alt="image" src="https://github.com/user-attachments/assets/8afa7f26-a3ff-4c6d-bd35-e7b189ed228d" />
+- 다른점: is_legendary를 썼느냐 차이가 있는데 이것이 있는 것이 뭐가 어떤건지 보기에 좋은 것 같다.
+- 5번 문제
+- 
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+
+
 
 
 
