@@ -139,7 +139,11 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 
 ```
-여기에 선택한 답과 그 이유를 간단히 서술해주세요!
+- 정답은 3번이다.
+- 1,2번의 x,y는 다 채워져 있고 그 결과 3의 x,y도 다 채워져있다.
+- 반변 1,2번에 각각 서로다른 z와 w가 있는데, 이들은 서로에게 서로 없는 데이터가 존재한다.
+- 따라서 모두 다 표시하되, 없는 데이터를 NaN값으로 return하도록 how='outer';아마 합집합 how='inner'하면 겹치는 것만 나옴;교집합
+- 그리고 이 모든게 1번은 col1, 2번은 col3을 기준으로 이루어졌으니 이를 명시해야 한다.
 ```
 
 
