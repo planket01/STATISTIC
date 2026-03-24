@@ -147,7 +147,13 @@ WHERE CATEGORY = '인문'
 
 
 ~~~
-여기에 답을 작성해주세요!
+# 조건에 맞는 도서 리스트 출력하기
+# 규서의 SQL 첫 번째 풀이
+SELECT BOOK_ID, PUBLISHED_DATE
+FROM BOOK
+WHERE CATEGORY = '인문'
+  AND YEAR(PUBLISHED_DATE) = 2021;
+- 오류 메세지는 함수에 들어가는 인자 수가 잘못됐다는 것이다. YEAR은 연도를 찾아주는 함수이기에 PUBLISHED_DATE만 넣고, 그것이 2021인지 찾아야 한다.
 ~~~
 
 
