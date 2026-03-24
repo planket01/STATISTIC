@@ -81,7 +81,8 @@
 ~~~
 
 - <img width="1670" height="680" alt="image" src="https://github.com/user-attachments/assets/d5db51da-138d-47a3-98c0-5410a99479df" />
-- 
+- SPLIT(원본, 나눌 기준)
+- REPLACR(원본, 목표, 바꿀단어)
 
 
 
@@ -94,8 +95,14 @@
 * 시간함수들의 종류와 시간의 차이를 추출하는 방법을 설명할 수 있다. 
 ~~~
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
-
+- DATE: 년월일만
+- DATETIME 년월일시분, Timw Zone 정보는 없다.
+- UTC: 협정 세계시 -> GMT랑 거의 동일, 타임존이 존재한다. -> 그 지역의 그 시간이라는 뜻
+- TIMESTAMP: UTC부터 경과한 시
+- <img width="1840" height="694" alt="image" src="https://github.com/user-attachments/assets/80bccc58-830e-4464-b724-1344653e4551" />
+- <img width="1768" height="646" alt="image" src="https://github.com/user-attachments/assets/b57371e9-886b-4268-ac2e-c8b3a3146422" />
+- TIMESTAMP <-> DATETIME 서로 바꾸는 경우 종종 있음
+- <img width="1712" height="874" alt="image" src="https://github.com/user-attachments/assets/f26e42b9-bd20-4290-880e-750e000c60f4" />
 
 
 <br>
