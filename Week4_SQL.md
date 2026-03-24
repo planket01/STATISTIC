@@ -123,10 +123,8 @@
 >
 > :  https://school.programmers.co.kr/learn/courses/30/lessons/144853
 
-<!-- 문제를 풀기 위하여 로그인이  필요합니다. -->
-
-<!-- 정답을 맞추게 되면, 정답입니다. 라는 칸이 생성되는데 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. --> 
-
+<img width="2208" height="1372" alt="image" src="https://github.com/user-attachments/assets/7866db57-a0ef-4a38-a247-db4911929f49" />
+<img width="1624" height="1036" alt="image" src="https://github.com/user-attachments/assets/74b08d83-a5d9-4ee9-89da-cf6edfeac440" />
 
 
 ## 문제 1
