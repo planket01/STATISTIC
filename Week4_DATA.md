@@ -38,17 +38,21 @@ https://www.youtube.com/watch?v=Cbk_tQtuhbM&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. 통계로 요약하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- describe(percentiles=[~~~]) <- 퍼센타일을 직접 지정하는 것을 처음 알았다.
+- numpy, pandas에서 ddof 매개변수를 통해 자유도를 계산하고, 둘의 차이는 주로 사용하는 용도에서 기인한다는 것을 알 수 있었다.
 
 ## 02. 분포 요약하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- alpha: 투명도 조절, 0~1로 0에 가까울 수록 투명하다.
+- plt.x/yscale()을 통해 x,y축을 가독성 있게 바꿀 수 있다.
 
 
 # 2️⃣ 수행 인증
 
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 3장 이상의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
-
+- 토프에서 데이터 시각화 한 것을 책에 있는 내용고 비교하면 다시 한 번 복습하는 시간을 가졌다.
+<img width="1414" height="930" alt="image" src="https://github.com/user-attachments/assets/d4c24f83-b035-4864-b421-6a23583ea8c5" />
+<img width="1272" height="994" alt="image" src="https://github.com/user-attachments/assets/9e14f089-cfdf-4dfc-a5c8-744ac6861f8f" />
+<img width="1880" height="1280" alt="image" src="https://github.com/user-attachments/assets/d9baa081-5314-4420-bebe-f3dca58031c2" />
 
 
 <br>
