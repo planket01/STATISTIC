@@ -82,6 +82,10 @@ cross : 두 테이블의 요소들을 곱함
 * JOIN 을 활용한 쿼리를 작성할 수 있다. 
 ~~~
 
+<img width="1212" height="708" alt="image" src="https://github.com/user-attachments/assets/c1ace38c-855b-4136-bd4b-53a5f3c71d56" />
+- 한 결과
+- <img width="808" height="530" alt="image" src="https://github.com/user-attachments/assets/7dfa0b02-7f97-4c77-a08b-1f546653d096" />
+-  .*exept(~): joint 할 때 제외할 컬럼 지
 
 
 
@@ -92,8 +96,9 @@ cross : 두 테이블의 요소들을 곱함
 * 연습문제(3문제 이상) 푼 것들 정리하기
 ~~~
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
-
+<img width="778" height="474" alt="image" src="https://github.com/user-attachments/assets/564321de-c573-4b7c-b92b-0ead835ba73c" />
+<img width="804" height="334" alt="image" src="https://github.com/user-attachments/assets/9e9fb893-98b4-4490-9516-c0f2e1f5fe37" />
+<img width="920" height="290" alt="image" src="https://github.com/user-attachments/assets/1f459f15-0573-4277-bb16-4b5cbd7d402f" />
 
 
 <br>
@@ -114,8 +119,19 @@ https://school.programmers.co.kr/learn/courses/30/lessons/133027
 
 > 주문량이 많은 아이스크림들 조회하기
 
-<!-- 정답을 맞추게 되면, 정답입니다. 이 부분을 캡처해서 이 주석을 지우시고 첨부해주시면 됩니다. --> 
+- 문제1
+<img width="1174" height="982" alt="image" src="https://github.com/user-attachments/assets/eab2a3a6-0b15-4fa5-8582-7a2dadfa61a8" />
+- 매출액은 SUM(P.PRICE * S.SALES_AMOUNT)이니 두 데이터에서 각각 가격과 수량을 곱해야 하는 문제이다.
+- GROUP BY, ORDER BY를 사용해 매출액을 기준으로 내림차순 정렬해주시고 매출액이 같다면 상품코드를 기준으로 오름차순 정렬하는 것꺼지
+- 모든 조건을 맞추는 것이 복잡했다.
+- 복잡한 문제 상황도 차근차근 한다면 표현 가능함을 알 수 있다.
 
+- ㅇ
+- 문제2
+<img width="1488" height="1100" alt="image" src="https://github.com/user-attachments/assets/b4c419c1-ec6c-4040-b893-82caaba57df5" />
+- 문제가 매우 복잡하여 어떻게 풀어야할지 잘 몰랐다.
+- 제일 많은 것을 순서대로 3개만 필요로 하니 limit도 이용해야 한다.
+- 가장 어려운 부분은 join 안을 어떻게 채우는지를 결정하는 과정이었다.
 
 
 ---
