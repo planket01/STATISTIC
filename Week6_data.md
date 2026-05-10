@@ -38,16 +38,26 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. 객체지향 API로 그래프 꾸미기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- plt를 이용해 그래프를 그리는 것은 복잡한 상황에서 옳지 않은 방법이다.
+- 객체지향 API를 이용해 컬러맵, 컬러막대 등을 이용한다면 이쁘게 꾸밀 수 있다.
+- 나눔 폰트 등 한국어를 그래프에 적용하기에 적절하다.
 
 ## 02. 맷플롯립의 고급 기능 배우기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- 한 그래프 안에서 여러 범주의 그래프를 동시에 그릴 수 있다.
+- legend()를 통해 범례를 추가 가능하다.
+- 스택 막대그래프 혹은 여러 누적 그래프를 표현할 수 있다.
+- 원그래프에 다양한 시각화 효과를 넣어 강조를 쉽게할 수 있다.
 
 
 # 2️⃣ 수행 인증
 
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+-교재의 데이터는 복잡하고, 시간이 오래걸려 다른 데이터셋을 이용했습니다.
+<img width="1412" height="582" alt="image" src="https://github.com/user-attachments/assets/4d111d0d-664f-42e4-9e2f-48812f5a6daa" />
+<img width="1442" height="638" alt="image" src="https://github.com/user-attachments/assets/6cfe26c9-54c4-4e23-a207-a6e0bfcfdb6f" />
+<img width="1476" height="1022" alt="image" src="https://github.com/user-attachments/assets/3b572279-1ed7-4ebb-99c2-41b253794d9b" />
+<img width="1388" height="318" alt="image" src="https://github.com/user-attachments/assets/64161cc8-3725-4cbb-a668-34f4dd395f8a" />
 
 
 
@@ -62,8 +72,7 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 4주차에서 사용했던 캐글 데이터셋을 활용하여, 다양한 요소를 포함한 복잡한 그래프를 직접 작성해주세요.**
 
 ```
-여기에 코랩 링크를 첨부해주세요!
-(제출 전, 코랩의 공유 설정을 ‘링크가 있는 모든 사용자가 보기 가능’으로 변경했는지 반드시 확인해주세요.)
+https://colab.research.google.com/drive/1CTwKaouH39PXVFyXDuuRZNYCYMN4wLwY?hl=ko#scrollTo=5fhHvIRHryQa
 ```
 
 
