@@ -53,11 +53,14 @@ https://www.youtube.com/watch?v=NTQ5NXelOfw&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 # 2️⃣ 수행 인증
 
 <!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
--교재의 데이터는 복잡하고, 시간이 오래걸려 다른 데이터셋을 이용했습니다.
-<img width="1412" height="582" alt="image" src="https://github.com/user-attachments/assets/4d111d0d-664f-42e4-9e2f-48812f5a6daa" />
-<img width="1442" height="638" alt="image" src="https://github.com/user-attachments/assets/6cfe26c9-54c4-4e23-a207-a6e0bfcfdb6f" />
-<img width="1476" height="1022" alt="image" src="https://github.com/user-attachments/assets/3b572279-1ed7-4ebb-99c2-41b253794d9b" />
-<img width="1388" height="318" alt="image" src="https://github.com/user-attachments/assets/64161cc8-3725-4cbb-a668-34f4dd395f8a" />
+-교재의 데이터는 복잡하고, 시간이 오래걸려 밑의 문제에 쓰인 것과는 또 다른 데이터셋을 이용했습니다.
+<img width="1378" height="982" alt="image" src="https://github.com/user-attachments/assets/f25aef53-f676-41e9-a927-15ba0b6e9c54" />
+<img width="1470" height="1056" alt="image" src="https://github.com/user-attachments/assets/4d5573bf-385c-4739-b73c-5b5b636c3bb3" />
+<img width="1556" height="1166" alt="image" src="https://github.com/user-attachments/assets/7f38bfcf-34a1-4a06-9911-63cff970b940" />
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/5889c5f8-a317-4ffc-9964-d7a5574d2820" />
+<img width="1189" height="690" alt="image" src="https://github.com/user-attachments/assets/2c6c8ea2-55d4-4f20-8aa4-45bcc604a37f" />
+<img width="1489" height="690" alt="image" src="https://github.com/user-attachments/assets/ac68c2c6-42cc-4bd6-aca3-f02c568a54d0" />
+
 
 
 
