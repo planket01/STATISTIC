@@ -38,16 +38,28 @@ https://www.youtube.com/watch?v=W_cxRstQUk8&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 01. 통계적으로 추론하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- 모수검정: 표본을 이용해 모집단의 정보를 찾아내는 과정
+- 중심극한정리: 표본 수가 많아지면 많아질 수록 샘플링 결과는 정규분포와 비슷해진다.
+- 가설검정: 표본에 대한 정보를 사용해 모집단의 파라미터에 대한 가정을 검정하는 것
+- 순열검정: 분포를 정규분포로 혹은 그 자체로 설정할 수 없을 때 하는 가정으로, 아래와 같은 방법으로 진행된다.
+- <img width="834" height="456" alt="image" src="https://github.com/user-attachments/assets/b23c6f96-c5fc-4b15-9e7c-e713a836dcf8" />
 
 ## 02. 머신러닝으로 예측하기
 
-<!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- <img width="714" height="452" alt="image" src="https://github.com/user-attachments/assets/c72999a7-4ce7-4deb-a0d5-15e94883b630" />
+- 이렇듯 머신러닝은 크게 지도학습과 비지도학습으로 나뉜다.
+- 지도학습: 데이터에 있는 각 샘플에 대한 정답을 알고 있는 경우
+- 비지도학습: 입력 데이터는 있지만 타깃이 없는 경우
+- x값에 따른 y값을 구하고자 할 때 보통 선형회귀나 로지스틱회귀를 이용해 이를 도출한다.
 
 
 # 2️⃣ 수행 인증
 
-<!-- 교재에서 안내된 과정을 직접 실행해본 뒤, 진행 결과가 보이도록 4~6장의 스크린샷을 캡처하여 아래에 첨부해주세요.-->
+<img width="786" height="410" alt="image" src="https://github.com/user-attachments/assets/9501c32c-29dc-4bf6-9938-e06a19ccf947" />
+<img width="1552" height="296" alt="image" src="https://github.com/user-attachments/assets/1159f611-d7f2-4746-b027-f2f1385f44bc" />
+<img width="2686" height="1052" alt="image" src="https://github.com/user-attachments/assets/4c5b39e3-33c2-4a12-8fdf-c5ad1ed191ba" />
+<img width="1314" height="634" alt="image" src="https://github.com/user-attachments/assets/ddf528d4-0c9e-49ba-a8b1-a0b18b30ce9f" />
+
 
 
 
@@ -69,7 +81,7 @@ https://www.youtube.com/watch?v=W_cxRstQUk8&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 
 ```
-여기에 정답을 적어주세요!
+1번
 ```
 
 ## 문제 2.
@@ -84,7 +96,7 @@ https://www.youtube.com/watch?v=W_cxRstQUk8&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ```
 
 ```
-여기에 정답을 적어주세요!
+3번
 ```
 
 
