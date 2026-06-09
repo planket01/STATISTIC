@@ -43,20 +43,26 @@
 
 ## 4. 📊 장기 시뮬레이션 진
 
-현 시점 결과는 보험사가 큰 손해를 보는 구조이기 때문에 현실적으로 도입이 불가능하다. 
+* 현 시점 결과는 보험사가 큰 손해를 보는 구조이기 때문에 현실적으로 도입이 불가능하다.
+* 시간이 지날 수록 기대 손해액이 커지고, 보험료 인상을 하더라도 이 속도를 못 따라가기 때문에 기존 모델은 뒤로 갈 수록 큰 적자를 본다.
+* 따라서 기존 변수들에 여러 가정들을 추가해 우리 모델 하에서의 보험사의 수익성, 제조기업의 손익, 환경적 요인 등을 알아봤다.
 <img width="1602" height="556" alt="image" src="https://github.com/user-attachments/assets/af81dc23-7c32-4c85-a0f0-e1616ef0786d" />
+<img width="1582" height="698" alt="image" src="https://github.com/user-attachments/assets/773aeaf6-b324-44b9-9651-52ad03944f06" />
+<img width="1424" height="770" alt="image" src="https://github.com/user-attachments/assets/28a46b83-3381-4a96-b1fe-b7f58c5a21b4" />
+<img width="1444" height="740" alt="image" src="https://github.com/user-attachments/assets/9b48c1e1-491a-45bd-b60f-6ad2cf06659f" />
 
 
-* 기존 모델과 비교해 약 **946억원의 보험수리적 손실**이 있었다.
-* 기업의 온실가스 집약도 개선정도에 중점을 두기 위해 변수의 가중치를 변경했다.
-* 가중치 변경을 통해 **산업군 특성상 배출량이 많아 아무리 온실가스 저감 노력을 해도 큰 폭으로 보험료가 할증되던 기업들의 할증 폭을 줄여** 보험의 기존 취지를 살릴 수 있었다.
-* 이런 가중치 변경에도 불구하고 **큰 폭의 보험수리적 손실**을 보였다.
+* 보험사는 13년 이후부터 흑자 전환을 했고, 35년 누적 22,899억 보험수리적 이익을 보인다.
+* 제조 기업은 약 51,512억의 보험료를 할인받는 효과를 보인다.
+* 이 모델 도입을 통해 연간 1.1Gt의 온실가스 저감 효과를 보인다.
+* 이렇듯 친환경 보험 도입 시 **보험사, 기업, 환경 모두에 긍정적인 영향**을 준다는 사실을 알 수 있다.
 
 ---
 
-## 5. 🛠 Tech Stack
+## 5. 🛠 데이터 활용과 연구의 확장 가능성
 
-* **Language:** Python 3.x
-* **Data Analysis:** Pandas, NumPy, SciPy, Statsmodels, Arch
-* **Visualization:** Matplotlib, Seaborn, Plotly
-* **Environment:** Jupyter Notebook
+1. 표본 확장 및 데이터 정밀화 본 연구는 KOSPI 100 대형 제조사 47개사로 한정되어 중소·비상장 제조업이 누락되었으며, 환경부 의무 공시 범위인 Scope 1+2만 활용하였다. 향후 공정거래위원회 공시 데이터를 활용한 비상장사 확장과 Scope 3 배출량 포함을 통해 모델의 대표성과 정밀도를 높일 수 있다.
+
+2. 모델 고도화 및 다중 anchor 검증 현재 선형 가중치 결합 구조를 GLM·GAM 등 표준 계리 모델로 확장하고, V2 자본채널의 ΔP/BV 추정치를 도쿄마린 단일 사례에서 다수 글로벌 보험사(Swiss Re·Munich Re 등) 백테스트로 확대하여 robustness를 강화할 수 있다.
+
+3. 타 보험상품 및 실무 적용으로의 확장 DF·BPF 이중 채널 framework은 화재보험을 넘어 배상책임보험·기업휴지보험 등 타 기업성 보험에도 적용 가능하며, 실제 보험사가 자체 계약 데이터로 본 모델을 calibration할 경우 실무 도입을 위한 정량적 근거로 활용될 수 있다.
